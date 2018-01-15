@@ -17,6 +17,6 @@ public class MLoginInfoForm implements Serializable {
 	private String loginId;
 
 	@NotEmpty
-	private String loginPass;
+	private String loginPassword;
 
 }
