@@ -18,7 +18,8 @@ import jp.co.internous.lab.application.response.UserInfoResponse;
 import jp.co.internous.lab.application.service.LoginUserServiceInterface;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins="http://localhost:3000")
 @RequestMapping("/loginApi/")
 public class UserInformationController {
 
