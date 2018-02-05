@@ -48,4 +48,5 @@ public interface TUserInfoRepository  extends JpaRepository<TUserInfoEntity, Str
 	@Modifying
 	@Query("UPDATE TUserInfoEntity tu SET memo = ?1 WHERE id = ?2")
 	public int saveByMemo(String editParam, int id);
+
 }

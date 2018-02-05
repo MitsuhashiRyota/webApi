@@ -16,8 +16,8 @@ import jp.co.internous.lab.application.form.ChimeForm;
 import jp.co.internous.lab.application.service.ChimeServiceInterface;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
-//@CrossOrigin(origins="http://ipv4.fiddler:4200")
+//@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="http://ipv4.fiddler:4200")
 @RequestMapping("/")
 public class ChimeController {
 

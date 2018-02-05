@@ -21,7 +21,7 @@ public class TUserInfoEntity {
 	@Id
 	private int id;
 
-	@Column
+	@Column(name="user_first_name_kana", columnDefinition="varchar(255)")
 	private String userFirstNameKana;
 
 	@Column
